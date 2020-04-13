@@ -1,4 +1,5 @@
 import boto3
+import logging
 
 client = boto3.client('dynamodb')
 logger = logging.getLogger()
