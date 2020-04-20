@@ -27,7 +27,7 @@
     },
     "WaitForAWhile": {
       "Type": "Wait",
-      "Comment": "Flow started when a customer purchases an item, must pass itemID and quantitypurchased",
+      "Comment": "Wait time below must be enough for the seller to renew the inventory and have the amount of items bought",
       "Seconds": 60,
       "Next": "UpdateInventory"
     },
